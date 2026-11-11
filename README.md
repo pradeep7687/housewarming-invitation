@@ -40,6 +40,8 @@ Open `index.html` directly in a browser. The countdown and contact links work wi
 - Original illustration: `home.svg`.
 - Google Sheets backend: `google-apps-script/Code.gs`.
 
+The invitation uses a compact two-line hero, an arched home illustration, a maroon countdown band, bilingual welcome, event cards and a responsive ceremony schedule. Mobile layouts stack the event information and retain 16px form inputs to avoid automatic zoom on phones. Reduced-motion preferences are respected.
+
 The map and directions intentionally point to **Mysore city**, because no street address was supplied. To use the exact home location, replace both map URLs and update the visible address, location note and event JSON-LD. The schedule shows the ceremony order without inventing ritual times. Guests selecting “Can't make it” can submit zero guests.
 
 Before sharing, verify the mobile layout, Kannada copy, date, exact address, contact links, and a real deployed RSVP. Submission persistence requires completing the Google setup above. No gallery or analytics tracking is included.
